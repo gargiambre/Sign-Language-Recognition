@@ -4,24 +4,25 @@ Real-Time Sign Language Recognition (RTSLG) employs technology to convert hand m
 # Methodology
 Key steps of the System Design are:
 1) Image Acquisition:
+   
 • Employs a camera or webcam to capture hand
 gestures made by the user.
-2) Image Pre-processing:
+3) Image Pre-processing:
 • Processes the captured image as input.
 • Involves techniques like image enhancement and
 restoration.
 • Converts the input image into grayscale and applies
 interpolation.
-3) Image Segmentation:
+4) Image Segmentation:
 • Isolates the Region Of Interest (ROI), typically the
 user’s hand.
 • Uses techniques like edge detection, thresholding,
 region-based, clustering, or artificial neural net-
 works.
-4) Feature Extraction:
+5) Feature Extraction:
 • Extracts relevant hand features for comparison with
 the dataset.
-5) Classification and Recognition:
+6) Classification and Recognition:
 • Classifies the extracted features against the sign
 language dataset.
 • Generates the corresponding output for the captured
