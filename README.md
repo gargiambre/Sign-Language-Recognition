@@ -4,7 +4,6 @@ Real-Time Sign Language Recognition (RTSLG) employs technology to convert hand m
 # Methodology
 Key steps of the System Design are:
 1) Image Acquisition:
-   
 • Employs a camera or webcam to capture hand
 gestures made by the user.
 3) Image Pre-processing:
