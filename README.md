@@ -9,11 +9,14 @@ Key steps of the System Design are:
 
 **2) Image Pre-processing:**
 • Processes the captured image as input.
+
 • Involves techniques like image enhancement and restoration.
+
 • Converts the input image into grayscale and applies interpolation.
 
 **3) Image Segmentation:**
 • Isolates the Region Of Interest (ROI), typically the user’s hand.
+
 • Uses techniques like edge detection, thresholding, region-based, clustering, or artificial neural networks.
 
 **4) Feature Extraction:**
@@ -21,6 +24,7 @@ Key steps of the System Design are:
 
 **5) Classification and Recognition:**
 • Classifies the extracted features against the sign language dataset.
+
 • Generates the corresponding output for the captured hand gesture.
 
 
